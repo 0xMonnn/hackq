@@ -159,10 +159,16 @@ async function feedPet(accessToken, amount) {
 }
 
 function printHeader() {
-    console.log(chalk.cyan.bold('==============================================='));
-    console.log(chalk.cyan.bold('      HackQuest Auto Bot | Airdrop Insiders    '));
-    console.log(chalk.cyan.bold('==============================================='));
-}
+    console.log(` █████╗ ███████╗██╗   ██╗███╗   ██╗ ██████╗`);
+    console.log(`██╔══██╗██╔════╝╚██╗ ██╔╝████╗  ██║██╔════╝`);
+    console.log(`███████║███████╗ ╚████╔╝ ██╔██╗ ██║██║      `);
+    console.log(`██╔══██║╚════██║  ╚██╔╝  ██║╚██╗██║██║      `);
+    console.log(`██║  ██║███████║   ██║   ██║ ╚████║╚██████╔ `);
+    console.log(`╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═══╝ ╚═════╝ `);
+    console.log(`========HACKQUEST AUTO========`);
+    console.log(`               JOIN AIRDROP         `);
+    console.log(`      https://t.me/AirdropSyncReborn `);
+  }
 
 function printFooter() {
     console.log(chalk.cyan.bold('==============================================='));
